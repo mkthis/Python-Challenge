@@ -19,7 +19,6 @@ with open(csvpath, 'r') as csvfile:
     i = ["Voter ID", "County", "Candidate"]
     for row in csvreader:
         candidates.append(row[2])
-
     print(list(set(candidates)))
 
 count_ot = 0
